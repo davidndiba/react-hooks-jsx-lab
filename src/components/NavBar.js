@@ -8,6 +8,5 @@ function NavBar() {
       <a href="#about">About</a>
     </nav>
   )
-}
-
+};
 export default NavBar;

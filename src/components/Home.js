@@ -1,14 +1,17 @@
 import React from "react";
 import { name, city } from "../data/data.js";
 
+let user ={name ,city}
+console.log(name,city)
+
+
 function Home() {
   // update the JSX being returned!
   return (
     <div id="home">
       <h1 style={{color:"firebrick"}}>
-      David is a Web Developer from Nakuru City
+      Liza is a Web Developer from New York
       </h1>
-
     </div>
   )
 }
